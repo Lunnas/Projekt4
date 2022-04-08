@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Projekt4</title>
+  </head>
+  <body>
+    <div class="logo">LOGO</div>
+    <div class="container">
+      <header class="header">
+        <h1>Przelicznik walut</h1>
+      </header>
+    </div>
+    <div class="container2">
+      <input type="number" class="number" id="number" placeholder="0" />
+      <select name="currency" id="currency">
+        <option value="eur">EUR</option>
+        <option value="usd">USD</option>
+        <option value="chf">CHF</option>
+      </select>
+      <button id="btn" type="button">Przelicz</button>
+      <div>
+        <h2 id="result"></h2>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
